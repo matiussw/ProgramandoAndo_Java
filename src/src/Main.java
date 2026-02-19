@@ -1,3 +1,5 @@
+import EjerciciosCondicionales.EjerciciosCondicionales;
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
@@ -21,6 +23,7 @@ public class Main {
 
         if(opcion==1){
             System.out.println("1.Ingresando a Ejercicios Con Condicionales");
+            EjerciciosCondicionales ejerciciosCondicionales=new EjerciciosCondicionales();
         }
         if(opcion==2){
             System.out.println("2.Ingresando a Ejercicios Con Ciclos y Bucles");
