@@ -174,41 +174,36 @@ public class EjerciciosCondicionales {
             }else {
                 System.out.println("Numero Ingresado es Cero "+numero);
             }
-
-            if(Ejercicios==2){
-                //Inicio Desarrollo Ejercicio 2
-            }
-
-            if(Ejercicios==3){
-                //Inicio Desarrollo Ejercicio 3
-            }
-            if(Ejercicios==4){
-                //Inicio Desarrollo Ejercicio 4
-            }
-            if(Ejercicios==5){
-                //Inicio Desarrollo Ejercicio 5
-            }
-            if(Ejercicios==6){
-                //Inicio Desarrollo Ejercicio 6
-            }
-            if(Ejercicios==7){
-                //Inicio Desarrollo Ejercicio 7
-            }
-            if(Ejercicios==8){
-                //Inicio Desarrollo Ejercicio 8
-            }
-
-            if(Ejercicios==9){
-                //Inicio Desarrollo Ejercicio 9
-            }
-            if(Ejercicios==10){
-                //Inicio Desarrollo Ejercicio 10
-            }
-
-
-
+        }
+        if(Ejercicios==2){
+            //Inicio Desarrollo Ejercicio 2
         }
 
+        if(Ejercicios==3){
+            //Inicio Desarrollo Ejercicio 3
+        }
+        if(Ejercicios==4){
+            //Inicio Desarrollo Ejercicio 4
+        }
+        if(Ejercicios==5){
+            //Inicio Desarrollo Ejercicio 5
+        }
+        if(Ejercicios==6){
+            //Inicio Desarrollo Ejercicio 6
+        }
+        if(Ejercicios==7){
+            //Inicio Desarrollo Ejercicio 7
+        }
+        if(Ejercicios==8){
+            //Inicio Desarrollo Ejercicio 8
+        }
+
+        if(Ejercicios==9){
+            //Inicio Desarrollo Ejercicio 9
+        }
+        if(Ejercicios==10){
+            //Inicio Desarrollo Ejercicio 10
+        }
 
         if (Ejercicios>10 || Ejercicios <=0){
             System.out.println("Ingreso un valor invalido");
