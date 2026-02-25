@@ -11,6 +11,7 @@ Pida un número entero al usuario e imprima:
 
 Use if - else if - else.
 */
+
 /*
 ========================================
 EJERCICIO 2 - Número par o impar
@@ -163,49 +164,87 @@ public class EjerciciosCondicionales {
 
         int Ejercicios = lector.nextInt();
 
-        if (Ejercicios==1){
+        if (Ejercicios == 1) {
             System.out.println("EJERCICIO 1 - Número positivo, negativo o cero");
             System.out.println("Ingrese un numero Para determinar si es Negativo o Positivo");
-            int numero= lector.nextInt();
-            if (numero>0){
-                System.out.println("Numero es positivo "+numero);
-            }else if (numero<0){
-                System.out.println("Numero es Negativo "+numero);
-            }else {
-                System.out.println("Numero Ingresado es Cero "+numero);
+            int numero = lector.nextInt();
+            if (numero > 0) {
+                System.out.println("Numero es positivo " + numero);
+            } else if (numero < 0) {
+                System.out.println("Numero es Negativo " + numero);
+            } else {
+                System.out.println("Numero Ingresado es Cero " + numero);
             }
         }
-        if(Ejercicios==2){
-            //Inicio Desarrollo Ejercicio 2
+        if (Ejercicios == 2) {
+            // Inicio Desarrollo Ejercicio 2
+
         }
 
-        if(Ejercicios==3){
-            //Inicio Desarrollo Ejercicio 3
+        if (Ejercicios == 3) {
+            // Inicio Desarrollo Ejercicio 3
         }
-        if(Ejercicios==4){
-            //Inicio Desarrollo Ejercicio 4
+        if (Ejercicios == 4) {
+            // Inicio Desarrollo Ejercicio 4
         }
-        if(Ejercicios==5){
-            //Inicio Desarrollo Ejercicio 5
+        if (Ejercicios == 5) {
+            // Inicio Desarrollo Ejercicio 5
         }
-        if(Ejercicios==6){
-            //Inicio Desarrollo Ejercicio 6
+        if (Ejercicios == 6) {
+            // Inicio Desarrollo Ejercicio 6
         }
-        if(Ejercicios==7){
-            //Inicio Desarrollo Ejercicio 7
+        if (Ejercicios == 7) {
+            // Inicio Desarrollo Ejercicio 7
         }
-        if(Ejercicios==8){
-            //Inicio Desarrollo Ejercicio 8
-        }
-
-        if(Ejercicios==9){
-            //Inicio Desarrollo Ejercicio 9
-        }
-        if(Ejercicios==10){
-            //Inicio Desarrollo Ejercicio 10
+        if (Ejercicios == 8) {
+            // Inicio Desarrollo Ejercicio 8
         }
 
-        if (Ejercicios>10 || Ejercicios <=0){
+        if (Ejercicios == 9) {
+            // Inicio Desarrollo Ejercicio 9
+            System.out.println("EJERCICIO 9 - Sistema de login");
+            System.out.println("Vamos A Crear el usuario");
+            System.out.println("Cree un Usuario");
+            System.out.println("Nombre del usuario a crear");
+            String user = lector.next();
+            System.out.println("El usuario creado es " + user);
+            System.out.println("Determine un contrasna Para el " + user);
+            int password = lector.nextInt();
+            System.out.println("Contrasena Establecida");
+
+            System.out.println("Vamos a hacer login");
+            System.out.println("Ingrese el usuario");
+            boolean valideUser = true;
+
+            if (valideUser) {
+
+                String us = lector.next();
+
+                if (user.contains(us)) {
+                    System.out.println("Usuario Correcto");
+                    System.out.println("Ingrese la contrasena");
+                    int pas = lector.nextInt();
+                    if (pas == password) {
+                        System.out.println("Contrasena Correcta");
+                        System.out.println("Bievenido al sistema");
+                    } else {
+                        System.out.println("PassWord Incorrecto");
+                        System.out.println("Terminando programa");
+                    }
+
+                } else {
+                    System.out.println("Usuario Incorrecto");
+                    System.out.println("Terminando programa");
+                }
+
+            }
+
+        }
+        if (Ejercicios == 10) {
+            // Inicio Desarrollo Ejercicio 10
+        }
+
+        if (Ejercicios > 10 || Ejercicios <= 0) {
             System.out.println("Ingreso un valor invalido");
 
         }
