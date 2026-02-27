@@ -167,23 +167,27 @@ public class BuclesCiclos {
             System.out.println("17. Imprimir un triángulo de asteriscos de altura 5 usando ciclos for anidados.");
             System.out.println("Ingreso al Ejercicio 17");
             System.out.println("Imprimiendo Triangulo");
-            int vector ;
-                for (int j = 0; j <= 10; j++) {
+            String [] vector  ={"*","*","*","*","*"} ;
+                for (int j = 1; j <= vector.length; j++) {
+                    for (int z = 1; z <= j; z++) {
+                        System.out.print(vector[j]);
+                    }
                     System.out.println();
-                    if (true){
-
-                    }
-                    for (int z = 0; z <= 5; z++) {
-                        if (true) {
-                            System.out.println("*");
-                        }
-                    }
                 }
 
 
         }
         if (Ejercicio == 18) {
-             System.out.println("Ingreso al Ejercicio 18");
+            System.out.println("18. Imprimir un cuadrado de 6x6 asteriscos usando ciclos for anidados.");
+            System.out.println("Ingreso al Ejercicio 18");
+
+            for (int i = 1 ; i<=6 ;i++){
+                for (int j =0 ; j<6;j++){
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+
 
         }
         if (Ejercicio == 19) {
