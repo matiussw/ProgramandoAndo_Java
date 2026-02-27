@@ -1,3 +1,4 @@
+import EjerciciosCiclosBucles.BuclesCiclos;
 import EjerciciosCondicionales.EjerciciosCondicionales;
 
 import java.sql.SQLOutput;
@@ -27,6 +28,7 @@ public class Main {
         }
         if(opcion==2){
             System.out.println("2.Ingresando a Ejercicios Con Ciclos y Bucles");
+            BuclesCiclos Ciclos=new BuclesCiclos();
         }
 
         if(opcion==3){
