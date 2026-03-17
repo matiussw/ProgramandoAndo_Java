@@ -1,5 +1,7 @@
 import EjerciciosCiclosBucles.BuclesCiclos;
 import EjerciciosCondicionales.EjerciciosCondicionales;
+import databaseConexion.ConexionDb;
+import databaseConexion.InicializarDb;
 
 import javax.swing.*;
 import java.sql.SQLOutput;
@@ -16,10 +18,7 @@ public class Main {
                         "Lista De Ejercicios\n" +
                         "1. Condicionales\n" +
                         "2. Ciclos y Bucles\n" +
-                        "3. Switch\n" +
-                        "4. Do-While\n" +
-                        "5. Ejercicios Básicos POO\n" +
-                        "6. POO con Conexión a Base De Datos\n\n" +
+                        "3. POO con Conexión a Base De Datos\n\n" +
                         "Ingrese una opción:"));
 
         int opcion = Integer.parseInt(selecion);
@@ -47,6 +46,9 @@ public class Main {
 
         if (opcion == 6) {
             System.out.println("6.Ingresando a Ejercicios Con POO con Conexion a Base De Datos");
+            InicializarDb inicializarDb = new InicializarDb();
+            inicializarDb.crearTablas();
+
         }
 
         if (opcion < 0 || opcion > 6) {
